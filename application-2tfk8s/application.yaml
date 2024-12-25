@@ -79,7 +79,7 @@ metadata:
 
 spec:
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   storageClassName: ebs-sc
   resources:
     requests:
